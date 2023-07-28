@@ -13,6 +13,7 @@ GitHub API Scraper is a powerful tool that allows users to search the GitHub API
 Follow these instructions to set up and run the GitHub API Scraper on your local machine.
 ### Prerequisites
 * Python 3.x installed on your system.
+* Valid GitHub API Access Token with permissions to Read & Modify.
 * The requests library for Python.
 ```python
 pip install requests
@@ -28,9 +29,8 @@ cd GitHub-Scraper
 ```
 ### Usage
 * Run the github_api_scraper.py source file.
-* Or Run the .exe file in dist folder.
-  
-* * The script will prompt you to enter the keywords you want to search for on GitHub, and the file path to store the .csv file.
+
+* * The script will prompt you to enter the GitHub Access Token, the keywords you want to search for on GitHub, and the file path to store the .csv file.
 * * After entering the keywords, the scraper will use the GitHub API to search for repositories and source code related to those keywords.
 * * The search results will be saved in a CSV file in the mentioned directory.
 * * You can open the .csv file using a spreadsheet software (e.g., Microsoft Excel, Google Sheets) for further analysis.
